@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.video-wrapper {
+    margin-bottom: 20px;
+}
+
+#hls-video {
+    width: 80%;
+    max-width: 800px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.time {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 18px;
+    color: #555;
+}
+.schedule-list {
+    list-style-position: inside;
+    padding-left: 0;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.schedule-list li {
+    margin-bottom: 10px;
+}
